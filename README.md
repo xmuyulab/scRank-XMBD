@@ -60,7 +60,7 @@ training_clinical <- list_[[2]]
 ncells <- 10
 deltaS <- 0.6
 
-average_exp_of_top_genepairs <- readRDS("./result/GSE144735(ncells=10)top_genepairs.rds"")
+average_exp_of_top_genepairs <- readRDS("./result/GSE144735(ncells=10)top_genepairs.rds")
 specific_genepairs_list <- get_C_Gps(average_exp_of_top_genepairs, "GSE144735", deltaS, ncells)
 
 # visualize the celltype-specific gene pairs
