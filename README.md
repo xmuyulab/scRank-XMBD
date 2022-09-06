@@ -3,7 +3,7 @@
 We proposed a data analysis framework to prioritize prognostic-associated subpopulations based on relative expression orderings (REOs). Cell type specific gene pairs (C-GPs) were identified to evaluate prognostic value for each cell type. Individualized recurrence risk signatures at single-cell resolution were developed based on REOs. The results shown that REOs-based signatures could classify accurately among most cell subtypes. C-GPs achieves higher precision compared with four current methods. Moreover, we developed single-cell gene pair signatures (scGPSs) to predict recurrence risk for patients individually.<br>
 <br>
 
-![](https://github.com/Lin-Yux/scRank_XMBD/blob/non-master/workflow.png)
+![](https://github.com/Lin-Yux/scRank_XMBD/blob/scRank_XMBD/figure/workflow.png)
 ## Docker
 We provide our R package conda enviroment images in [docker hub](https://hub.docker.com/)<br>
 You can use docker in Linux to run the code directly. You can start with the following command.<br>
