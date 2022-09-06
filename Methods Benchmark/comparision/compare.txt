@@ -1,0 +1,26 @@
+Cell type	methods	Accuracy	False rate	Contradiction  rate
+T cells	C-GPS	0.67 	0.00 	0.40 
+T cells	GSEA	0.67 	0.17 	0.20 
+T cells	CibersortX	0.17 	0.33 	0.60 
+T cells	Scissor	0.00 	0.00 	1.00 
+T cells	Uni-Markers	0.83 	0.17 	0.00 
+Myeloid cells	C-GPS	0.88 	0.00 	0.13 
+Myeloid cells	GSEA	0.88 	0.00 	0.13 
+Myeloid cells	CibersortX	0.88 	0.13 	0.00 
+Myeloid cells	Scissor	0.50 	0.00 	0.50 
+Myeloid cells	Uni-Markers	0.38 	0.63 	0.00 
+Endothelial cells	C-GPS	0.83 	0.00 	0.14 
+Endothelial cells	GSEA	0.83 	0.17 	0.00 
+Endothelial cells	CibersortX	0.33 	0.67 	0.00 
+Endothelial cells	Scissor	0.00 	0.00 	1.00 
+Endothelial cells	Uni-Markers	0.17 	0.83 	0.00 
+B cells	C-GPS	0.57 	0.00 	0.25 
+B cells	GSEA	0.43 	0.29 	0.13 
+B cells	CibersortX	0.29 	0.29 	0.38 
+B cells	Scissor	0.00 	0.00 	1.00 
+B cells	Uni-Markers	0.43 	0.43 	0.00 
+Fibroblasts	C-GPS	0.73 	0.27 	0.00 
+Fibroblasts	GSEA	0.73 	0.27 	0.00 
+Fibroblasts	CibersortX	0.45 	0.36 	0.23 
+Fibroblasts	Scissor	0.64 	0.27 	0.15 
+Fibroblasts	Uni-Markers	0.82 	0.00 	0.15 

@@ -1,0 +1,131 @@
+title	geo_accession	age.at.diagnosis	center	date.at.distant.metastasis	date.at.last.contact	date.at.surgery	gender	localisation	Stage
+200	GSM929494	70	CAL (Nice Lacassagne)	NA	2005-01-01	2000-05-02	male	left	2
+363	GSM929495	46	CAL (Nice Lacassagne)	NA	2004-06-01	2001-02-06	male	left	2
+9700	GSM929496	58	IPC (Marseille Institut PAoli-Calmettes)	1999-07-20	2002-03-30	1999-02-05	female	left	3
+10682	GSM929497	59	IPC (Marseille Institut PAoli-Calmettes)	2001-02-05	2001-11-29	2000-07-11	female	left	3
+11501	GSM929498	62	IPC (Marseille Institut PAoli-Calmettes)	2004-11-03	2005-05-11	2001-09-20	male	left	3
+11697	GSM929499	55	IPC (Marseille Institut PAoli-Calmettes)	2004-08-10	2005-10-08	2001-12-19	male	right	3
+12248	GSM929500	74	IPC (Marseille Institut PAoli-Calmettes)	2007-08-01	2007-08-01	2002-11-14	male	left	3
+13070	GSM929501	66	IPC (Marseille Institut PAoli-Calmettes)	NA	2008-11-24	2004-02-02	female	right	3
+13955	GSM929502	54	IPC (Marseille Institut PAoli-Calmettes)	2005-08-29	2005-10-01	2005-02-11	male	right	3
+14420	GSM929503	60	IPC (Marseille Institut PAoli-Calmettes)	2006-01-09	2008-06-16	2005-06-23	female	left	3
+14450	GSM929504	55	IPC (Marseille Institut PAoli-Calmettes)	2004-08-10	2005-10-08	2001-12-19	male	right	3
+8246	GSM929505	74	IPC (Marseille Institut PAoli-Calmettes)	NA	2004-05-11	1996-10-07	female	right	2
+386	GSM929506	72	CAL (Nice Lacassagne)	NA	2004-09-01	2001-03-22	male	left	2
+12	GSM929507	66	LAR (Paris Lariboisiare)	NA	2000-03-27	1993-02-12	female	left	2
+21	GSM929508	64	LAR (Paris Lariboisiare)	1994-08-24	1999-03-03	1993-06-11	female	left	2
+26	GSM929509	49	LAR (Paris Lariboisiare)	NA	1999-12-29	1993-09-03	female	left	2
+33	GSM929510	76	LAR (Paris Lariboisiare)	NA	1995-03-21	1994-03-28	male	left	2
+17	GSM929511	66	LAR (Paris Lariboisiare)	1995-08-15	1998-02-18	1993-04-09	male	left	3
+27	GSM929512	53	LAR (Paris Lariboisiare)	NA	1996-05-30	1993-09-21	male	left	3
+48	GSM929513	72	LAR (Paris Lariboisiare)	NA	2005-10-25	2002-05-15	female	right	3
+SA014736	GSM929514	53	STA (Paris Saint-Antoine)	NA	2007-05-30	2001-06-22	male	right	2
+SA017579	GSM929515	61	STA (Paris Saint-Antoine)	NA	2007-02-15	2001-10-23	male	left	2
+SA030625	GSM929516	76	STA (Paris Saint-Antoine)	NA	2007-09-15	2003-01-24	male	left	2
+426	GSM929517	71	CAL (Nice Lacassagne)	NA	2005-03-01	2001-05-02	female	left	2
+SA031523	GSM929518	66	STA (Paris Saint-Antoine)	NA	2004-06-01	2003-02-26	male	left	3
+SA012939	GSM929519	96	STA (Paris Saint-Antoine)	2003-06-01	2004-06-01	2001-04-13	male	left	3
+SA013893	GSM929520	96	STA (Paris Saint-Antoine)	NA	2004-06-01	2001-05-21	male	right	3
+SA014040	GSM929521	96	STA (Paris Saint-Antoine)	NA	2004-06-01	2001-05-28	female	right	3
+SA014500	GSM929522	96	STA (Paris Saint-Antoine)	NA	2004-06-01	2001-06-14	male	left	3
+SA016466	GSM929523	96	STA (Paris Saint-Antoine)	2002-07-10	2007-09-15	2001-09-12	female	left	3
+SA017456	GSM929524	97	STA (Paris Saint-Antoine)	2003-06-01	2003-06-01	2001-10-18	female	right	3
+SA031069	GSM929525	63	STA (Paris Saint-Antoine)	2003-06-01	2004-06-01	2003-02-10	female	left	3
+SA031610	GSM929526	78	STA (Paris Saint-Antoine)	NA	2004-06-01	2003-02-28	male	left	3
+SA033059	GSM929527	71	STA (Paris Saint-Antoine)	NA	2005-06-01	2003-04-18	female	right	3
+44	GSM929528	73	CAL (Nice Lacassagne)	NA	2000-10-01	1996-04-24	female	left	2
+SA014936	GSM929529	59	STA (Paris Saint-Antoine)	NA	2004-06-01	2001-06-01	female	left	2
+510	GSM929530	88	CAL (Nice Lacassagne)	NA	2004-09-01	2001-04-10	female	left	2
+512	GSM929531	60	CAL (Nice Lacassagne)	NA	2005-02-01	2001-05-18	male	right	2
+519	GSM929532	61	CAL (Nice Lacassagne)	NA	2004-11-01	2001-02-22	male	right	2
+533	GSM929533	79	CAL (Nice Lacassagne)	NA	2005-01-01	2001-04-03	male	left	2
+534	GSM929534	53	CAL (Nice Lacassagne)	NA	2005-02-01	2001-04-13	female	left	2
+538	GSM929535	49	CAL (Nice Lacassagne)	NA	2005-01-01	2001-05-16	male	left	2
+206	GSM929536	71	CAL (Nice Lacassagne)	NA	2005-03-01	2000-05-30	female	right	2
+625	GSM929537	75	CAL (Nice Lacassagne)	NA	2005-03-01	2001-06-21	male	left	2
+684	GSM929538	86	CAL (Nice Lacassagne)	NA	2005-04-01	2001-09-24	male	right	2
+79	GSM929539	56	CAL (Nice Lacassagne)	1998-12-01	2000-06-01	1997-11-13	female	right	2
+10411	GSM929540	81	IPC (Marseille Institut PAoli-Calmettes)	NA	2005-06-30	2000-02-29	male	left	2
+10602	GSM929541	78	IPC (Marseille Institut PAoli-Calmettes)	NA	2005-01-31	2000-06-06	male	left	2
+10937	GSM929542	83	IPC (Marseille Institut PAoli-Calmettes)	NA	2005-03-14	2000-12-12	male	right	2
+11196	GSM929543	58	IPC (Marseille Institut PAoli-Calmettes)	NA	2004-10-15	2001-04-12	male	right	2
+12266	GSM929544	93	IPC (Marseille Institut PAoli-Calmettes)	NA	2005-08-23	2002-11-21	female	right	2
+7610	GSM929545	81	IPC (Marseille Institut PAoli-Calmettes)	NA	1999-03-30	1995-08-15	male	left	2
+8196	GSM929546	84	IPC (Marseille Institut PAoli-Calmettes)	1997-06-06	1999-06-15	1996-09-16	female	right	2
+208	GSM929547	78	CAL (Nice Lacassagne)	NA	2004-06-01	2000-06-06	male	right	2
+8612	GSM929548	73	IPC (Marseille Institut PAoli-Calmettes)	NA	2004-01-20	1997-05-27	female	left	2
+9184	GSM929549	68	IPC (Marseille Institut PAoli-Calmettes)	NA	2005-07-05	1998-03-30	female	right	2
+9243	GSM929550	72	IPC (Marseille Institut PAoli-Calmettes)	NA	2004-03-04	1998-05-11	female	left	2
+9304	GSM929551	67	IPC (Marseille Institut PAoli-Calmettes)	2002-04-10	2004-05-12	1998-06-23	male	left	2
+9607	GSM929552	76	IPC (Marseille Institut PAoli-Calmettes)	NA	2002-12-06	1998-12-23	female	left	2
+9736	GSM929553	55	IPC (Marseille Institut PAoli-Calmettes)	NA	2005-05-12	1999-02-19	female	left	2
+9749	GSM929554	67	IPC (Marseille Institut PAoli-Calmettes)	NA	2004-04-15	1999-02-23	female	right	2
+9848	GSM929555	50	IPC (Marseille Institut PAoli-Calmettes)	NA	2004-12-10	1999-04-22	male	left	2
+B9406375	GSM929556	68	LAR (Paris Lariboisiare)	NA	1995-09-11	1994-05-30	male	left	2
+B0115625	GSM929557	55	LAR (Paris Lariboisiare)	NA	2004-06-03	2001-12-17	male	right	2
+211	GSM929558	70	CAL (Nice Lacassagne)	NA	2005-05-01	2000-06-08	female	left	2
+B0201594	GSM929559	69	LAR (Paris Lariboisiare)	NA	2002-02-22	2002-02-05	male	right	2
+08C0463T	GSM929560	78	NAN (Nancy Brabois)	NA	2008-09-25	2005-11-28	male	right	2
+08C0464T	GSM929561	61	NAN (Nancy Brabois)	NA	2005-10-08	2005-08-30	male	left	2
+08C0535T	GSM929562	82	NAN (Nancy Brabois)	NA	2008-06-19	2006-04-07	male	right	2
+07C1415T	GSM929563	79	NAN (Nancy Brabois)	NA	2008-06-22	2006-03-29	male	right	2
+07C1421T	GSM929564	75	NAN (Nancy Brabois)	NA	2008-09-25	2007-02-13	female	left	2
+SA010753	GSM929565	81	STA (Paris Saint-Antoine)	NA	2005-09-15	2001-01-26	male	left	2
+SA011853	GSM929566	64	STA (Paris Saint-Antoine)	NA	2006-03-15	2001-03-07	female	right	2
+SA031197	GSM929567	45	STA (Paris Saint-Antoine)	NA	2007-04-15	2003-02-13	female	left	2
+SA031373	GSM929568	77	STA (Paris Saint-Antoine)	NA	2007-05-15	2003-02-20	male	right	2
+225	GSM929569	55	CAL (Nice Lacassagne)	NA	2005-09-01	1999-12-01	male	left	2
+SA031424	GSM929570	94	STA (Paris Saint-Antoine)	NA	2006-06-15	2003-02-21	female	right	2
+SA034165	GSM929571	47	STA (Paris Saint-Antoine)	NA	2007-08-15	2003-06-03	female	right	2
+SA033888	GSM929572	64	STA (Paris Saint-Antoine)	2004-06-01	2004-06-01	2003-06-01	male	right	3
+S1	GSM929573	22	APH (Marseille La Timone)	NA	2005-12-15	2002-01-15	male	left	3
+L10	GSM929574	56	APH (Marseille La Timone)	1999-08-17	2000-11-01	1997-11-10	male	left	3
+S3	GSM929575	63	APH (Marseille La Timone)	2004-12-04	2005-09-27	2003-06-03	female	right	3
+S5	GSM929576	76	APH (Marseille La Timone)	2004-03-15	2004-06-14	2003-10-30	male	right	3
+Q1	GSM929577	63	APH (Marseille La Timone)	2005-02-28	2005-11-28	2003-12-30	male	left	3
+L6	GSM929578	64	APH (Marseille La Timone)	NA	2000-12-11	1998-03-18	female	right	3
+106	GSM929579	67	CAL (Nice Lacassagne)	NA	2004-06-01	1999-10-21	female	NA	2
+241	GSM929580	77	CAL (Nice Lacassagne)	NA	2005-03-01	2000-08-11	male	right	2
+112	GSM929581	75	CAL (Nice Lacassagne)	NA	2004-07-01	1999-11-25	female	right	2
+174	GSM929582	70	CAL (Nice Lacassagne)	NA	2005-03-01	1999-11-09	male	left	2
+187	GSM929583	77	CAL (Nice Lacassagne)	NA	2005-02-01	2000-03-28	female	right	2
+197	GSM929584	70	CAL (Nice Lacassagne)	NA	2005-03-01	2000-04-17	female	left	2
+77	GSM929585	63	CAL (Nice Lacassagne)	2000-02-01	2001-11-01	1997-10-13	male	right	2
+81	GSM929586	62	CAL (Nice Lacassagne)	1999-12-01	2005-02-01	1997-11-10	male	left	2
+92	GSM929587	58	CAL (Nice Lacassagne)	2002-05-01	2002-06-01	1999-03-08	male	right	2
+95	GSM929588	61	CAL (Nice Lacassagne)	NA	2005-03-01	1999-04-07	male	right	2
+129	GSM929589	71	CAL (Nice Lacassagne)	NA	2005-03-01	1999-12-14	female	right	3
+163	GSM929590	58	CAL (Nice Lacassagne)	1999-09-01	2005-02-01	1998-02-27	male	left	3
+244	GSM929591	72	CAL (Nice Lacassagne)	2002-03-01	2003-08-01	2000-09-28	male	right	2
+164	GSM929592	59	CAL (Nice Lacassagne)	NA	2002-04-01	1998-04-30	female	right	3
+179	GSM929593	50	CAL (Nice Lacassagne)	2001-04-01	2002-02-01	2000-01-19	male	right	3
+182	GSM929594	72	CAL (Nice Lacassagne)	NA	2005-03-01	2000-03-07	male	left	3
+186	GSM929595	50	CAL (Nice Lacassagne)	NA	2005-03-01	2000-03-23	male	right	3
+20	GSM929596	64	CAL (Nice Lacassagne)	NA	2004-07-01	1995-11-29	male	left	3
+202	GSM929597	63	CAL (Nice Lacassagne)	NA	2005-04-01	2000-05-10	female	left	3
+242	GSM929598	65	CAL (Nice Lacassagne)	NA	2005-04-01	2000-09-06	male	left	3
+329	GSM929599	59	CAL (Nice Lacassagne)	2003-09-01	2005-02-01	2000-11-20	male	right	3
+456	GSM929600	46	CAL (Nice Lacassagne)	NA	2004-07-01	1998-07-30	female	right	3
+47	GSM929601	76	CAL (Nice Lacassagne)	NA	2001-08-01	1996-07-05	male	left	3
+284	GSM929602	84	CAL (Nice Lacassagne)	NA	2003-06-01	2000-05-31	female	right	2
+517	GSM929603	78	CAL (Nice Lacassagne)	NA	2005-05-01	2001-03-27	male	right	3
+53	GSM929604	54	CAL (Nice Lacassagne)	NA	2004-03-01	1996-06-13	female	left	3
+536	GSM929605	73	CAL (Nice Lacassagne)	NA	2005-03-01	2001-04-24	male	right	3
+539	GSM929606	59	CAL (Nice Lacassagne)	NA	2004-06-01	2001-05-29	female	left	3
+60	GSM929607	68	CAL (Nice Lacassagne)	NA	2004-07-01	1996-08-28	female	left	3
+629	GSM929608	47	CAL (Nice Lacassagne)	NA	2004-09-01	2001-07-10	male	right	3
+680	GSM929609	64	CAL (Nice Lacassagne)	2000-12-01	2001-12-01	2000-05-11	female	right	3
+682	GSM929610	66	CAL (Nice Lacassagne)	2004-09-01	2005-05-01	2001-07-03	male	right	3
+683	GSM929611	73	CAL (Nice Lacassagne)	NA	2005-03-01	2001-07-13	female	left	3
+73	GSM929612	73	CAL (Nice Lacassagne)	2000-03-01	2003-06-01	1997-06-12	female	left	3
+315	GSM929613	71	CAL (Nice Lacassagne)	NA	2004-10-01	2000-11-15	female	left	2
+83	GSM929614	72	CAL (Nice Lacassagne)	1999-06-01	1999-07-01	1997-11-17	female	left	3
+97	GSM929615	70	CAL (Nice Lacassagne)	NA	2005-03-01	1999-04-27	female	left	3
+123	GSM929616	78	CAL (Nice Lacassagne)	NA	2000-05-01	1999-11-23	female	left	2
+12371	GSM929617	78	IPC (Marseille Institut PAoli-Calmettes)	2003-12-23	2005-10-10	2003-01-20	female	right	3
+12487	GSM929618	64	IPC (Marseille Institut PAoli-Calmettes)	2004-11-08	2005-10-05	2003-03-11	male	left	3
+7094	GSM929619	87	IPC (Marseille Institut PAoli-Calmettes)	NA	2000-01-17	1994-11-17	female	left	2
+7225	GSM929620	78	IPC (Marseille Institut PAoli-Calmettes)	NA	2002-05-21	1995-03-15	female	right	2
+8336	GSM929621	64	IPC (Marseille Institut PAoli-Calmettes)	NA	2004-09-24	1996-11-25	male	left	2
+8505	GSM929622	79	IPC (Marseille Institut PAoli-Calmettes)	1997-05-23	1999-08-15	1997-03-06	female	left	3
+8952	GSM929623	59	IPC (Marseille Institut PAoli-Calmettes)	1998-11-03	2004-03-19	1997-11-18	female	left	3

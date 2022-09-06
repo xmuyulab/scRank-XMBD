@@ -1,0 +1,123 @@
+title	geo_accession	ajcc_stage	dfs_event..disease.free.survival.	dfs_time..disease.free.survival.time..months.	dss_event..disease.specific.survival.	dss_time..disease.specific.survival.time..months.
+Patient 1	GSM950411	4	NA	NA	1 (death from cancer)	1.57
+Patient 2	GSM950412	4	NA	NA	1 (death from cancer)	17.6
+Patient 3	GSM950413	4	NA	NA	1 (death from cancer)	12.67
+Patient 4	GSM950414	4	NA	NA	1 (death from cancer)	6.83
+Patient 5	GSM950415	4	NA	NA	1 (death from cancer)	32.53
+Patient 6	GSM950416	4	NA	NA	1 (death from cancer)	16.1
+Patient 7	GSM950417	2	0 (no recurrence)	0.43	0 (no death)	0.43
+Patient 8	GSM950418	2	0 (no recurrence)	84.43	0 (no death)	84.43
+Patient 9	GSM950419	3	0 (no recurrence)	43.83	0 (no death)	43.83
+Patient 10	GSM950420	2	0 (no recurrence)	81.1	0 (no death)	81.1
+Patient 11	GSM950421	3	1 (cancer recurrence)	3.87	1 (death from cancer)	13.83
+Patient 12	GSM950422	3	0 (no recurrence)	108.57	0 (no death)	108.57
+Patient 13	GSM950423	2	0 (no recurrence)	27.6	0 (no death)	27.6
+Patient 14	GSM950424	3	0 (no recurrence)	41.47	0 (no death)	41.47
+Patient 15	GSM950425	3	0 (no recurrence)	41	0 (no death)	41
+Patient 16	GSM950426	3	0 (no recurrence)	54	0 (no death)	54
+Patient 17	GSM950427	4	NA	NA	1 (death from cancer)	12.83
+Patient 18	GSM950428	1	0 (no recurrence)	3.57	0 (no death)	3.57
+Patient 19	GSM950429	3	0 (no recurrence)	108.73	0 (no death)	108.73
+Patient 20	GSM950430	2	0 (no recurrence)	46.2	0 (no death)	46.2
+Patient 21	GSM950431	3	0 (no recurrence)	70.6	0 (no death)	70.6
+Patient 22	GSM950432	3	0 (no recurrence)	105.6	0 (no death)	105.6
+Patient 23	GSM950433	3	1 (cancer recurrence)	60	1 (death from cancer)	69.17
+Patient 24	GSM950434	3	0 (no recurrence)	85.63	0 (no death)	85.63
+Patient 25	GSM950435	2	0 (no recurrence)	95.03	0 (no death)	95.03
+Patient 26	GSM950436	3	0 (no recurrence)	54.7	0 (no death)	54.7
+Patient 27	GSM950437	2	0 (no recurrence)	92.37	0 (no death)	92.37
+Patient 28	GSM950438	3	1 (cancer recurrence)	41.53	1 (death from cancer)	48.23
+Patient 29	GSM950439	3	0 (no recurrence)	57.2	0 (no death)	57.2
+Patient 30	GSM950440	1	0 (no recurrence)	101.3	0 (no death)	101.3
+Patient 31	GSM950441	1	0 (no recurrence)	97.53	0 (no death)	97.53
+Patient 32	GSM950442	1	0 (no recurrence)	107.1	0 (no death)	107.1
+Patient 33	GSM950443	1	0 (no recurrence)	54.47	0 (no death)	54.47
+Patient 34	GSM950444	2	0 (no recurrence)	83.77	0 (no death)	83.77
+Patient 35	GSM950445	1	0 (no recurrence)	35	0 (no death)	35
+Patient 36	GSM950446	3	0 (no recurrence)	30.93	0 (no death)	30.93
+Patient 37	GSM950447	1	0 (no recurrence)	14.63	0 (no death)	14.63
+Patient 38	GSM950448	2	0 (no recurrence)	12.17	0 (no death)	12.17
+Patient 39	GSM950449	3	0 (no recurrence)	0.3	0 (no death)	0.3
+Patient 40	GSM950450	3	0 (no recurrence)	30.33	0 (no death)	30.33
+Patient 41	GSM950451	4	NA	NA	1 (death from cancer)	8.53
+Patient 42	GSM950452	3	1 (cancer recurrence)	18.07	0 (no death)	19.1
+Patient 43	GSM950453	2	0 (no recurrence)	31.37	0 (no death)	31.37
+Patient 44	GSM950454	2	0 (no recurrence)	11.43	0 (no death)	11.43
+Patient 45	GSM950455	3	0 (no recurrence)	22.83	0 (no death)	22.83
+Patient 46	GSM950456	4	NA	NA	1 (death from cancer)	0.97
+Patient 47	GSM950457	3	1 (cancer recurrence)	9.73	0 (no death)	26.8
+Patient 48	GSM950458	4	NA	NA	0 (no death)	27.1
+Patient 49	GSM950459	3	0 (no recurrence)	20.77	0 (no death)	20.77
+Patient 50	GSM950460	2	0 (no recurrence)	63.53	0 (no death)	63.53
+Patient 51	GSM950461	2	0 (no recurrence)	37.17	0 (no death)	37.17
+Patient 52	GSM950462	2	0 (no recurrence)	40.47	0 (no death)	40.47
+Patient 53	GSM950463	3	0 (no recurrence)	7.37	0 (no death)	7.37
+Patient 54	GSM950464	4	NA	NA	1 (death from cancer)	9.47
+Patient 55	GSM950465	2	0 (no recurrence)	24.83	0 (no death)	24.83
+Patient 56	GSM950466	4	NA	NA	1 (death from cancer)	36
+Patient 57	GSM950467	1	0 (no recurrence)	37	0 (no death)	37
+Patient 58	GSM950468	2	0 (no recurrence)	3.83	0 (no death)	3.83
+Patient 59	GSM950469	1	0 (no recurrence)	13.87	0 (no death)	13.87
+Patient 60	GSM950470	3	0 (no recurrence)	25.1	0 (no death)	25.1
+Patient 61	GSM950471	3	0 (no recurrence)	110.5	0 (no death)	110.5
+Patient 62	GSM950472	1	0 (no recurrence)	31.33	0 (no death)	31.33
+Patient 63	GSM950473	4	NA	NA	0 (no death)	36.13
+Patient 64	GSM950474	2	0 (no recurrence)	42.87	0 (no death)	42.87
+Patient 65	GSM950475	1	0 (no recurrence)	55.1	0 (no death)	55.1
+Patient 66	GSM950476	1	0 (no recurrence)	59.03	0 (no death)	59.03
+Patient 67	GSM950477	1	0 (no recurrence)	21.63	0 (no death)	21.63
+Patient 68	GSM950478	3	1 (cancer recurrence)	22.93	0 (no death)	36.03
+Patient 69	GSM950479	2	0 (no recurrence)	20.83	0 (no death)	20.83
+Patient 70	GSM950480	3	0 (no recurrence)	12.97	0 (no death)	12.97
+Patient 71	GSM950481	2	0 (no recurrence)	56.4	0 (no death)	56.4
+Patient 72	GSM950482	4	NA	NA	1 (death from cancer)	16.2
+Patient 73	GSM950483	1	0 (no recurrence)	30.8	0 (no death)	30.8
+Patient 74	GSM950484	3	0 (no recurrence)	20.43	0 (no death)	20.43
+Patient 75	GSM950485	2	0 (no recurrence)	19.77	0 (no death)	19.77
+Patient 76	GSM950486	3	1 (cancer recurrence)	11.7	0 (no death)	18.07
+Patient 77	GSM950487	2	1 (cancer recurrence)	14.6	0 (no death)	21.17
+Patient 78	GSM950488	4	NA	NA	0 (no death)	19.37
+Patient 79	GSM950489	1	0 (no recurrence)	40.07	0 (no death)	40.07
+Patient 80	GSM950490	2	0 (no recurrence)	53.03	0 (no death)	53.03
+Patient 81	GSM950491	4	NA	NA	1 (death from cancer)	1.1
+Patient 82	GSM950492	3	0 (no recurrence)	44.7	0 (no death)	44.7
+Patient 83	GSM950493	4	NA	NA	1 (death from cancer)	18
+Patient 84	GSM950494	4	NA	NA	1 (death from cancer)	12.77
+Patient 85	GSM950495	2	0 (no recurrence)	9.2	0 (no death)	9.2
+Patient 86	GSM950496	1	0 (no recurrence)	24.33	0 (no death)	24.33
+Patient 87	GSM950497	2	0 (no recurrence)	4.33	0 (no death)	4.33
+Patient 88	GSM950498	4	NA	NA	0 (no death)	56.43
+Patient 89	GSM950499	1	0 (no recurrence)	24.1	0 (no death)	24.1
+Patient 90	GSM950500	2	0 (no recurrence)	20.33	0 (no death)	20.33
+Patient 91	GSM950501	4	NA	NA	0 (no death)	1.17
+Patient 92	GSM950502	4	NA	NA	1 (death from cancer)	2.03
+Patient 93	GSM950503	1	0 (no recurrence)	49.5	0 (no death)	49.5
+Patient 94	GSM950504	2	1 (cancer recurrence)	10.53	0 (no death)	35.37
+Patient 95	GSM950505	3	0 (no recurrence)	11.43	0 (no death)	11.43
+Patient 96	GSM950506	2	0 (no recurrence)	8.43	0 (no death)	8.43
+Patient 97	GSM950507	2	0 (no recurrence)	9.6	0 (no death)	9.6
+Patient 98	GSM950508	4	NA	NA	1 (death from cancer)	40.97
+Patient 99	GSM950509	3	0 (no recurrence)	54.17	0 (no death)	54.17
+Patient 100	GSM950510	4	NA	NA	1 (death from cancer)	8.2
+Patient 101	GSM950511	4	NA	NA	1 (death from cancer)	3.57
+Patient 102	GSM950512	2	0 (no recurrence)	80.37	0 (no death)	80.37
+Patient 103	GSM950513	2	0 (no recurrence)	95.03	0 (no death)	95.03
+Patient 104	GSM950514	3	0 (no recurrence)	50.17	0 (no death)	50.17
+Patient 105	GSM950515	4	NA	NA	1 (death from cancer)	30.8
+Patient 106	GSM950516	2	0 (no recurrence)	89.17	0 (no death)	89.17
+Patient 107	GSM950517	3	0 (no recurrence)	52.07	0 (no death)	52.07
+Patient 108	GSM950518	4	NA	NA	1 (death from cancer)	5.2
+Patient 109	GSM950519	2	0 (no recurrence)	84.2	0 (no death)	84.2
+Patient 110	GSM950520	3	0 (no recurrence)	111.4	0 (no death)	111.4
+Patient 111	GSM950521	3	0 (no recurrence)	7.83	0 (no death)	7.83
+Patient 112	GSM950522	2	0 (no recurrence)	95.47	0 (no death)	95.47
+Patient 113	GSM950523	2	0 (no recurrence)	106.47	0 (no death)	106.47
+Patient 114	GSM950524	4	NA	NA	1 (death from cancer)	6.4
+Patient 115	GSM950525	3	0 (no recurrence)	92.47	0 (no death)	92.47
+Patient 116	GSM950526	4	NA	NA	1 (death from cancer)	92.77
+Patient 117	GSM950527	4	NA	NA	1 (death from cancer)	49
+Patient 118	GSM950528	3	0 (no recurrence)	92.2	0 (no death)	92.2
+Patient 119	GSM950529	3	0 (no recurrence)	91.8	0 (no death)	91.8
+Patient 120	GSM950530	4	NA	NA	1 (death from cancer)	23.4
+Patient 121	GSM950531	3	0 (no recurrence)	21.57	0 (no death)	21.57
+Patient 122	GSM950532	2	0 (no recurrence)	33.07	0 (no death)	33.07

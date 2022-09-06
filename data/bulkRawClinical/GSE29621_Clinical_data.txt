@@ -1,0 +1,66 @@
+"Patient_ID"	"Adjuvant_chemotherapy"	"AJCC_stage"	"dfs_event"	"dfs_time"	"Gender"	"Histologic_grade"	"M_stage"	"N_stage"	"overall_event"	"overall_time"	"T_stage"
+"GSM734111"	"GSM734111"	"Y"	"Stage 3"	"no recurrence"	52.86	"MALE"	"POORLY DIFF"	"no; 1: metastasis): 0"	"1"	"alive"	52.86	3
+"GSM734112"	"GSM734112"	"N"	"Stage 3"	"no recurrence"	54.9	"FEMALE"	"MOD DIFF"	"no; 1: metastasis): 0"	"1"	"dead"	54.9	3
+"GSM734113"	"GSM734113"	"Y"	"Stage 3"	"recurrence"	24.85	"MALE"	"MOD DIFF"	"no; 1: metastasis): 0"	"1"	"alive"	74.07	3
+"GSM734114"	"GSM734114"	"Y"	"Stage 3"	"no recurrence"	59.34	"MALE"	"POORLY DIFF"	"no; 1: metastasis): 0"	"1"	"alive"	59.34	3
+"GSM734115"	"GSM734115"	"Y"	"Stage 4"	"recurrence"	17.32	"FEMALE"	"POORLY DIFF"	"no; 1: metastasis): 1"	"2"	"alive"	32.67	3
+"GSM734116"	"GSM734116"	"Y"	"Stage 3"	"no recurrence"	38.72	"FEMALE"	"MOD DIFF"	"no; 1: metastasis): 0"	"1"	"dead"	38.72	3
+"GSM734117"	"GSM734117"	"Y"	"Stage 4"	"recurrence"	13.08	"MALE"	"MOD DIFF"	"no; 1: metastasis): 1"	"0"	"alive"	42.27	4
+"GSM734118"	"GSM734118"	"Y"	"Stage 4"	"no recurrence"	8.94	"MALE"	"MOD DIFF"	"no; 1: metastasis): 1"	"1"	"dead"	8.94	3
+"GSM734119"	"GSM734119"	"N"	"Stage 4"	NA	NA	"FEMALE"	"MOD DIFF"	"no; 1: metastasis): 1"	"2"	"dead"	5.12	3
+"GSM734120"	"GSM734120"	"Y"	"Stage 2"	"no recurrence"	47.86	"MALE"	"MOD DIFF"	"no; 1: metastasis): 0"	"0"	"alive"	47.86	3
+"GSM734121"	"GSM734121"	"Y"	"Stage 3"	"no recurrence"	64.33	"MALE"	"MOD DIFF"	"no; 1: metastasis): 0"	"1"	"alive"	78.87	3
+"GSM734122"	"GSM734122"	"Y"	"Stage 3"	"no recurrence"	105.17	"MALE"	"MOD DIFF"	"no; 1: metastasis): 0"	"1"	"alive"	105.17	3
+"GSM734123"	"GSM734123"	"Y"	"Stage 3"	"no recurrence"	47.8	"MALE"	"POORLY DIFF"	"no; 1: metastasis): 0"	"1"	"dead"	47.8	3
+"GSM734124"	"GSM734124"	"N"	"Stage 3"	"recurrence"	5.35	"MALE"	"POORLY DIFF"	"no; 1: metastasis): 0"	"1"	"dead"	6.11	3
+"GSM734125"	"GSM734125"	"Y"	"Stage 3"	"no recurrence"	20.44	"MALE"	"MOD DIFF"	"no; 1: metastasis): 0"	"2"	"dead"	20.44	2
+"GSM734126"	"GSM734126"	"Y"	"Stage 3"	"no recurrence"	85.61	"FEMALE"	"MOD DIFF"	"no; 1: metastasis): 0"	"1"	"alive"	85.61	3
+"GSM734127"	"GSM734127"	"Y"	"Stage 3"	"no recurrence"	59.07	"MALE"	"MOD DIFF"	"no; 1: metastasis): 0"	"2"	"dead"	59.07	3
+"GSM734128"	"GSM734128"	"N"	"Stage 3"	"recurrence"	79.46	"MALE"	"MOD DIFF"	"no; 1: metastasis): 0"	"1"	"dead"	85.93	3
+"GSM734129"	"GSM734129"	"Y"	"Stage 3"	"recurrence"	8.58	"FEMALE"	"POORLY DIFF"	"no; 1: metastasis): 0"	"1"	"dead"	19.03	3
+"GSM734130"	"GSM734130"	"N"	"Stage 4"	NA	NA	"MALE"	"MOD DIFF"	"no; 1: metastasis): 1"	"1"	"dead"	4.96	3
+"GSM734131"	"GSM734131"	"Y"	"Stage 4"	NA	NA	"MALE"	"MOD DIFF"	"no; 1: metastasis): 1"	"1"	"dead"	5.72	3
+"GSM734132"	"GSM734132"	"Y"	"Stage 4"	"no recurrence"	82.61	"MALE"	"MOD DIFF"	"no; 1: metastasis): 1"	"1"	"alive"	95.07	3
+"GSM734133"	"GSM734133"	"Y"	"Stage 4"	NA	NA	"MALE"	"MOD DIFF"	"no; 1: metastasis): 1"	"2"	"dead"	28.89	3
+"GSM734134"	"GSM734134"	"Y"	"Stage 4"	NA	NA	"MALE"	"MOD DIFF"	"no; 1: metastasis): 1"	"1"	"dead"	18.54	3
+"GSM734135"	"GSM734135"	"Y"	"Stage 4"	NA	NA	"FEMALE"	"MOD DIFF"	"no; 1: metastasis): 1"	"2"	"dead"	34.02	3
+"GSM734136"	"GSM734136"	"Y"	"Stage 4"	NA	NA	"MALE"	"POORLY DIFF"	"no; 1: metastasis): 1"	"1"	"dead"	1.44	3
+"GSM734137"	"GSM734137"	"Y"	"Stage 4"	NA	NA	"MALE"	"MOD DIFF"	"no; 1: metastasis): 1"	"1"	"alive"	31.85	3
+"GSM734138"	"GSM734138"	"Y"	"Stage 4"	"no recurrence"	55.19	"FEMALE"	"MOD DIFF"	"no; 1: metastasis): 1"	"1"	"alive"	60.75	3
+"GSM734139"	"GSM734139"	"N"	"Stage 4"	NA	NA	"MALE"	"MOD DIFF"	"no; 1: metastasis): 1"	"1"	"dead"	15.25	3
+"GSM734140"	"GSM734140"	"Y"	"Stage 4"	NA	NA	"MALE"	"MOD DIFF"	"no; 1: metastasis): 1"	"1"	"dead"	14.56	3
+"GSM734141"	"GSM734141"	"N"	"Stage 4"	"no recurrence"	9.96	"FEMALE"	"MOD DIFF"	"no; 1: metastasis): 1"	"0"	"dead"	9.96	4
+"GSM734142"	"GSM734142"	"Y"	"Stage 4"	NA	NA	"MALE"	"MOD DIFF"	"no; 1: metastasis): 1"	"0"	"alive"	22.35	3
+"GSM734143"	"GSM734143"	"N"	"Stage 2"	"no recurrence"	52.5	"FEMALE"	"MOD DIFF"	"no; 1: metastasis): 0"	"0"	"dead"	52.5	3
+"GSM734144"	"GSM734144"	"Y"	"Stage 2"	"no recurrence"	88.99	"MALE"	"MOD DIFF"	"no; 1: metastasis): 0"	"0"	"alive"	88.99	3
+"GSM734145"	"GSM734145"	"N"	"Stage 2"	"no recurrence"	55.33	"FEMALE"	"POORLY DIFF"	"no; 1: metastasis): 0"	"0"	"alive"	55.33	3
+"GSM734146"	"GSM734146"	"N"	"Stage 2"	"no recurrence"	37.31	"MALE"	"MOD DIFF"	"no; 1: metastasis): 0"	"0"	"dead"	37.31	3
+"GSM734147"	"GSM734147"	"Y"	"Stage 2"	"no recurrence"	63.25	"MALE"	"MOD DIFF"	"no; 1: metastasis): 0"	"0"	"alive"	63.25	3
+"GSM734148"	"GSM734148"	"N"	"Stage 2"	"no recurrence"	61.57	"FEMALE"	"POORLY DIFF"	"no; 1: metastasis): X"	"X"	"alive"	61.57	4
+"GSM734149"	"GSM734149"	"N"	"Stage 2"	"no recurrence"	24.19	"FEMALE"	"POORLY DIFF"	"no; 1: metastasis): 0"	"0"	"alive"	34.09	3
+"GSM734150"	"GSM734150"	"N"	"Stage 2"	"no recurrence"	59.96	"MALE"	"WELL DIFF"	"no; 1: metastasis): 0"	"0"	"alive"	59.96	3
+"GSM734151"	"GSM734151"	"Y"	"Stage 2"	"no recurrence"	46.71	"FEMALE"	"MOD DIFF"	"no; 1: metastasis): 0"	"0"	"alive"	58.45	3
+"GSM734152"	"GSM734152"	"Y"	"Stage 2"	"no recurrence"	17.95	"FEMALE"	"MOD DIFF"	"no; 1: metastasis): 0"	"0"	"alive"	37.67	3
+"GSM734153"	"GSM734153"	"Y"	"Stage 2"	"recurrence"	27.64	"FEMALE"	"MOD DIFF"	"no; 1: metastasis): 0"	"0"	"alive"	120.62	4
+"GSM734154"	"GSM734154"	"N"	"Stage 2"	"no recurrence"	25.24	"MALE"	"MOD DIFF"	"no; 1: metastasis): 0"	"0"	"alive"	25.24	3
+"GSM734155"	"GSM734155"	"N"	"Stage 2"	"no recurrence"	44.97	"MALE"	"MOD DIFF"	"no; 1: metastasis): 0"	"0"	"alive"	44.97	3
+"GSM734156"	"GSM734156"	"N"	"Stage 2"	"no recurrence"	35.9	"MALE"	"MOD DIFF"	"no; 1: metastasis): 0"	"0"	"alive"	35.9	3
+"GSM734157"	"GSM734157"	"N"	"Stage 2"	"no recurrence"	26.66	"MALE"	"MOD DIFF"	"no; 1: metastasis): 0"	"0"	"alive"	26.66	3
+"GSM734158"	"GSM734158"	"Y"	"Stage 2"	"recurrence"	22.38	"FEMALE"	"MOD DIFF"	"no; 1: metastasis): 0"	"0"	"alive"	83.99	3
+"GSM734159"	"GSM734159"	"N"	"Stage 2"	"no recurrence"	15.05	"MALE"	"MOD DIFF"	"no; 1: metastasis): 0"	"0"	"alive"	15.05	3
+"GSM734160"	"GSM734160"	"N"	"Stage 2"	"no recurrence"	27.15	"FEMALE"	"MOD DIFF"	"no; 1: metastasis): 0"	"0"	"dead"	27.15	3
+"GSM734161"	"GSM734161"	"N"	"Stage 1"	"no recurrence"	52.24	"MALE"	"WELL DIFF"	"no; 1: metastasis): 0"	"0"	"alive"	52.24	2
+"GSM734162"	"GSM734162"	"N"	"Stage 1"	"no recurrence"	67.82	"FEMALE"	"MOD DIFF"	"no; 1: metastasis): 0"	"0"	"alive"	67.82	2
+"GSM734163"	"GSM734163"	"N"	"Stage 1"	"no recurrence"	55.13	"FEMALE"	"MOD DIFF"	"no; 1: metastasis): 0"	"0"	"alive"	55.13	2
+"GSM734164"	"GSM734164"	"N"	"Stage 1"	"no recurrence"	23.96	"MALE"	"WELL DIFF"	"no; 1: metastasis): 0"	"0"	"alive"	36.59	2
+"GSM734165"	"GSM734165"	"N"	"Stage 1"	"no recurrence"	65.88	"MALE"	"MOD DIFF"	"no; 1: metastasis): 0"	"0"	"dead"	65.88	2
+"GSM734166"	"GSM734166"	"Y"	"Stage 1"	"no recurrence"	59.53	"MALE"	"MOD DIFF"	"no; 1: metastasis): 0"	"0"	"alive"	59.53	2
+"GSM734167"	"GSM734167"	"N"	"Stage 1"	"no recurrence"	3.64	"MALE"	"MOD DIFF"	"no; 1: metastasis): 0"	"0"	"alive"	3.64	2
+"GSM734168"	"GSM734168"	"Y"	"Stage 3"	"no recurrence"	99.51	"FEMALE"	"WELL DIFF"	"no; 1: metastasis): 0"	"1"	"alive"	99.51	3
+"GSM734169"	"GSM734169"	"N"	"Stage 3"	"no recurrence"	58.45	"FEMALE"	"MOD DIFF"	"no; 1: metastasis): 0"	"1"	"alive"	58.45	3
+"GSM734170"	"GSM734170"	"N"	"Stage 2"	"no recurrence"	52.14	"FEMALE"	"MOD DIFF"	"no; 1: metastasis): 0"	"0"	"alive"	52.14	3
+"GSM734171"	"GSM734171"	"Y"	"Stage 2"	"no recurrence"	64.86	"MALE"	"MOD DIFF"	"no; 1: metastasis): 0"	"0"	"alive"	102.44	4
+"GSM734172"	"GSM734172"	"Y"	"Stage 2"	"no recurrence"	36.75	"FEMALE"	"MOD DIFF"	"no; 1: metastasis): 0"	"0"	"alive"	49.87	3
+"GSM734173"	"GSM734173"	"Y"	"Stage 4"	NA	NA	"MALE"	"MOD DIFF"	"no; 1: metastasis): 1"	"0"	"dead"	15.28	3
+"GSM734174"	"GSM734174"	"Y"	"Stage 3"	"no recurrence"	26.92	"FEMALE"	"MOD DIFF"	"no; 1: metastasis): 0"	"1"	"alive"	54.54	3
+"GSM734175"	"GSM734175"	"Y"	"Stage 3"	"recurrence"	8.21	"MALE"	"MOD DIFF"	"no; 1: metastasis): 0"	"2"	"dead"	11.76	3
