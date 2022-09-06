@@ -68,6 +68,8 @@ visualize_celltype_specific_genepairs(average_exp_of_top_genepairs, specific_gen
 ```
 ### Evaluation of prognostic value for each cell type.
 ```
+clinical_cutoff <- 0.1
+
 prognostic_CGPsList <- get_C_Gps_with_prognosis(training_exp,training_clinical,specific_genepairs_list, scRNA_name, ncells, deltaS, clinical_cutoff)
 ```
 ### Development of individualized recurrence risk signatures.
