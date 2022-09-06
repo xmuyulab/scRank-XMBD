@@ -66,6 +66,7 @@ specific_genepairs_list <- get_C_Gps(average_exp_of_top_genepairs, "GSE144735", 
 # visualize the celltype-specific gene pairs
 visualize_celltype_specific_genepairs(average_exp_of_top_genepairs, specific_genepairs_list)
 ```
+![](https://github.com/Lin-Yux/scRank_XMBD/blob/scRank_XMBD/figure/GPs%20average%20expression(GSE144735%2Cncells%3D10%2CdeltaS%3D0.6).png)
 ### Evaluation of prognostic value for each cell type.
 ```
 # parameter setting 
@@ -79,6 +80,7 @@ major_celltype_df <- load_major_celltype_name()
  
 boxplotForprognotic_CGPs(prognostic_CGPsList, major_celltype_df, CellSubTypeList, "GSE144735", ncells, deltaS, clinical_cutoff)
 ```
+![](https://github.com/Lin-Yux/scRank_XMBD/blob/scRank_XMBD/figure/The%20prognostic%20value%20of%20cell-subtype-specific%20gene%20pairs(GSE144735%2Cncells%3D10%2CdeltaS%3D0.6%2Ccutoff%3D0.1).pdf)
 ### Development of individualized recurrence risk signatures.
 #### build clinical signature
 ```
@@ -117,6 +119,7 @@ iteration_result <- analysis_KMs(ncells, celltype_list, path)
 # Lollipop chart
 Lollipop_chart(iteration_result)
 ```
+![](https://github.com/Lin-Yux/scRank_XMBD/blob/scRank_XMBD/figure/model/Cell%20subtypes%20recurrence-risk%20prediction-value%2C%20ncells%3D10.pdf)
 #### multiple variables cox
 ```
 celltype_list <- list.files("./model/")
