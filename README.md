@@ -68,9 +68,16 @@ visualize_celltype_specific_genepairs(average_exp_of_top_genepairs, specific_gen
 ```
 ### Evaluation of prognostic value for each cell type.
 ```
+# parameter setting 
 clinical_cutoff <- 0.1
 
-prognostic_CGPsList <- get_C_Gps_with_prognosis(training_exp,training_clinical,specific_genepairs_list, "", ncells, deltaS, clinical_cutoff)
+prognostic_CGPsList <- get_C_Gps_with_prognosis(training_exp,training_clinical,specific_genepairs_list, "GSE144735", ncells, deltaS, clinical_cutoff)
+
+# plotting the interesting cell sub-populations
+CellSubTypeList <- c("CD4+ Tfh", "CD8+ GZMK+ CTL", "Regulatory T cells")
+major_celltype_df <- load_major_celltype_name()
+ 
+boxplotForprognotic_CGPs(prognostic_CGPsList, major_celltype_df, CellSubTypeList, "GSE144735", ncells, deltaS, clinical_cutoff)
 ```
 ### Development of individualized recurrence risk signatures.
 #### build clinical signature
@@ -89,7 +96,7 @@ training_size <- list_[[3]]
 test_size <- list_[[4]]
 
 # parameter setting 
-scRNA_name_vector <- c("GSE144735", "GSE132465", "GSE132257")
+scRNA_name_vector <- c("GSE144735", "GSE132465", "GSE132257") # you need to run steps above for different dataset("GSE144735", "GSE132465", "GSE132257")
 iteration_times <- 1000
 ncells <- 10
 deltaS <- 0.6
