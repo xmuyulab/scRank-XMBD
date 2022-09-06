@@ -74,7 +74,7 @@ clinical_cutoff <- 0.1
 prognostic_CGPsList <- get_C_Gps_with_prognosis(training_exp,training_clinical,specific_genepairs_list, "GSE144735", ncells, deltaS, clinical_cutoff)
 
 # plotting the interesting cell sub-populations
-CellSubTypeList <- c("CD4+ Tfh", "CD8+ GZMK+ CTL", "Regulatory T cells")
+CellSubTypeList <- c("CD4+ Tfh", "CD8+ GZMK+ CTL", "Regulatory T cells", "IgA+ IGLC2+ Plasma B cell", "IgA+ IGLL5+ Plasma B cell","Macro_SPP1", "Macro_C1QC", "eCAF","myCAF_DES", "Fibro_SGK1")
 major_celltype_df <- load_major_celltype_name()
  
 boxplotForprognotic_CGPs(prognostic_CGPsList, major_celltype_df, CellSubTypeList, "GSE144735", ncells, deltaS, clinical_cutoff)
