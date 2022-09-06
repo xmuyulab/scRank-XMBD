@@ -785,7 +785,7 @@ MultiCox_Data_Transform <- function(path_, validation_sets, exp_matrix_list, cli
         for (i in 1:length(vali_clinical)) {
             vali_clinical[[i]] <- remove_less1_level(vali_clinical[[i]])
         }
-
+        setwd("../../../")
         return(vali_clinical)
     }
 }
