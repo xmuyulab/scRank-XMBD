@@ -420,7 +420,7 @@ Lollipop_chart <- function(iteration_result) {
 
 ## use best c-idnex in each model to visualize the Lollipop chart
 Lollipop_chart_cindex <- function() {
-  path <- "/cluster/huanglab/ylin/project_data/zyy_CRC_cellsubtype/2022.final/part2.develop_genepairs/KMs/10/"
+  path <- "./model/"
   cell_types <- list.files(path)
 
   plot_df <- matrix(data = NA, nrow = 0, ncol = 2)
