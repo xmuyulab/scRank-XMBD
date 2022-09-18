@@ -137,5 +137,3 @@ In ```REO Stablity in Bulk``` , we evaluate the REO of some gene-pairs in bulk R
 <br>
 In ```Methods Benchmark``` , we evaluate performance of five methods (scRank, CibersortX, GSEA, Scissor, Uni-Markers) used for prioritizing prognostic-associated subpopulations.<br>
 
-## How to cite
-我也不知道
