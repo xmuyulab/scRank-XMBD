@@ -90,9 +90,6 @@ GSE144735_annoFn <- function() {
     ## major cell type annotation
     ## load data
 
-    exp <- read.table(file = "/cluster/huanglab/ylin/project_data/zyy_CRC_cellsubtype/finalpart/part1.annotation/data/GSE144735_exp.txt", header = T, row.names = 1, sep = "\t")
-    clinical <- read.table(file = "/cluster/huanglab/ylin/project_data/zyy_CRC_cellsubtype/finalpart/part1.annotation/data/GSE144735_anno.txt", header = T, row.names = 1, sep = "\t", stringsAsFactors = F)
-
     exp <- read.table(file = "./data/GSE144735_exp.txt", header = T, row.names = 1, sep = "\t")
     clinical <- read.table(file = "./data/GSE144735_anno.txt", header = T, row.names = 1, sep = "\t", stringsAsFactors = F)
 
