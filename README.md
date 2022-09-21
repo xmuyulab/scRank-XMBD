@@ -66,7 +66,7 @@ specific_genepairs_list <- get_C_Gps(average_exp_of_top_genepairs, "GSE144735", 
 # visualize the celltype-specific gene pairs
 visualize_celltype_specific_genepairs(average_exp_of_top_genepairs, specific_genepairs_list)
 ```
-![](https://github.com/Lin-Yux/scRank_XMBD/blob/scRank_XMBD/figure/GPs%20average%20expression(GSE144735%2Cncells%3D10%2CdeltaS%3D0.6).png)
+![](https://github.com/xmuyulab/scRank_XMBD/blob/scRank_XMBD/figure/GPs%20average%20expression(GSE144735%2Cncells%3D10%2CdeltaS%3D0.6).png)
 ### Evaluation of prognostic value for each cell type.
 ```
 # parameter setting 
