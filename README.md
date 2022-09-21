@@ -80,7 +80,7 @@ major_celltype_df <- load_major_celltype_name()
  
 boxplotForprognotic_CGPs(prognostic_CGPsList, major_celltype_df, CellSubTypeList, "GSE144735", ncells, deltaS, clinical_cutoff)
 ```
-![](https://github.com/Lin-Yux/scRank_XMBD/blob/picture-warehouse/figure/The%20prognostic%20value%20of%20cell-subtype-specific%20gene%20pairs(GSE144735%2Cncells%3D10%2CdeltaS%3D0.6%2Ccutoff%3D0.1).png)
+![](https://github.com/xmuyulab/scRank_XMBD/blob/scRank_XMBD/figure/The%20prognostic%20value%20of%20cell-subtype-specific%20gene%20pairs(GSE144735%2Cncells%3D10%2CdeltaS%3D0.6%2Ccutoff%3D0.1).pdf)
 ### Development of individualized recurrence risk signatures.
 #### build clinical signature
 ```
