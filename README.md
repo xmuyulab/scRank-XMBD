@@ -119,7 +119,7 @@ iteration_result <- analysis_KMs(ncells, celltype_list, path)
 # Lollipop chart
 Lollipop_chart(iteration_result)
 ```
-![](https://github.com/xmuyulab/scRank_XMBD/blob/scRank_XMBD/figure/model/Cell%20subtypes%20recurrence-risk%20prediction-value%2C%20ncells%3D10.pdf)
+![](https://github.com/xmuyulab/scRank_XMBD/blob/scRank_XMBD/figure/Cell%20subtypes%20recurrence-risk%20prediction-value%2C%20ncells%3D10.png)
 #### multiple variables cox
 ```
 celltype_list <- list.files("./model/")
