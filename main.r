@@ -195,7 +195,7 @@ exp_matrix_list <- load_bulk_Exp()
 clinic_list <- load_bulk_Clinical()
 
 ### validation sets
-validate_id <- c(1, 3, 9)
+validate_id <- c(1, 3, 8)
 
 list_ <- split_Datasets(exp_matrix_list, clinic_list, validate_id)
 all_exp <- list_[[1]]
@@ -239,13 +239,7 @@ validation_sets <- c("GSE14333", "GSE17536", "GSE39582")
 
 for (celltype in celltype_list) {
   path_ <- paste0("./model/", celltype)
-  vali_clinical <- MultiCox_Data_Transform(path_, validation_sets, exp_matrix_list, clinic_list, raw_clinical)
-  
-  if(vali_clinical=="next"){
-    next;
-  }
-
-  MultiCox(vali_clinical)
+  MultiCox_Data_Transform(path_, validation_sets, exp_matrix_list, clinic_list, raw_clinical)
 }
 
 ### output the C-GPs of signatures
