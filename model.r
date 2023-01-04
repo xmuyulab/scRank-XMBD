@@ -1,4 +1,3 @@
-
 ## the interface of Seurat object and SingleCellNet
 Interface_Seurat_SCN <- function(data, ClassList) {
     data <- subset(data, (Class == ClassList[1] | Class == ClassList[2]))
@@ -340,8 +339,8 @@ if (T) {
 }
 
 ## applied lasso-cox model to bulid signature
-LassoCox_signature <- function(stable_pairs_list, celltype_list, iteration_times, all_exp, all_clinical, training_size, test_size, validation_sets) {
-    dir.create(paste0("./model/"))
+LassoCox_signature <- function(stable_pairs_list, celltype_list, iteration_times, all_exp, all_clinical, training_size, test_size, validation_sets,exp_matrix_list, clinic_list,ncells) {
+#    dir.create(paste0("./model/"))
     for (celltype in celltype_list) {
         t1 <- proc.time()
         setwd(paste0("./model/"))
@@ -384,12 +383,15 @@ LassoCox_signature <- function(stable_pairs_list, celltype_list, iteration_times
                 }
             )
             rm(training_exp_genepairs_rank)
-            if (train_model == "ERROR_label" & iteration == iteration_times) {
-                break
-            }
-            if (train_model == "ERROR_label" & iteration != iteration_times) {
-                setwd("../")
-                next
+            if (is.character(train_model)){
+                if (train_model == "ERROR_label" & iteration == iteration_times[length(iteration_times)]) {
+                    setwd("../")
+                    break
+                } 
+                if (train_model == "ERROR_label" & iteration != iteration_times[length(iteration_times)]) {
+                    setwd("../")
+                    next
+                }
             }
 
             if (length(table(as.matrix(train_model$`gene-pair weights`))) < 6) {
@@ -607,7 +609,7 @@ search_group_boundary <- function(exp, clincal, train_model, way) {
                 return("ERROR_label")
             }
         )
-        if (cutoff == "ERROR_label") {
+        if (is.character(cutoff)) {
             return(cutoff)
         } else {
             p <- plot(cutoff, "score", palette = "npg")
