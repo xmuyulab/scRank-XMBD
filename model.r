@@ -384,11 +384,11 @@ LassoCox_signature <- function(stable_pairs_list, celltype_list, iteration_times
             )
             rm(training_exp_genepairs_rank)
             if (is.character(train_model)){
-                if (train_model == "ERROR_label" & iteration == iteration_times[length(iteration_times)]) {
+                if (train_model == "ERROR_label" & iteration == iteration_times) {
                     setwd("../")
                     break
                 } 
-                if (train_model == "ERROR_label" & iteration != iteration_times[length(iteration_times)]) {
+                if (train_model == "ERROR_label" & iteration != iteration_times) {
                     setwd("../")
                     next
                 }
