@@ -90,6 +90,9 @@ GSE144735_annoFn <- function() {
     ## major cell type annotation
     ## load data
 
+    exp <- read.table(file = "/cluster/huanglab/ylin/project_data/zyy_CRC_cellsubtype/finalpart/part1.annotation/data/GSE144735_exp.txt", header = T, row.names = 1, sep = "\t")
+    clinical <- read.table(file = "/cluster/huanglab/ylin/project_data/zyy_CRC_cellsubtype/finalpart/part1.annotation/data/GSE144735_anno.txt", header = T, row.names = 1, sep = "\t", stringsAsFactors = F)
+
     exp <- read.table(file = "./data/GSE144735_exp.txt", header = T, row.names = 1, sep = "\t")
     clinical <- read.table(file = "./data/GSE144735_anno.txt", header = T, row.names = 1, sep = "\t", stringsAsFactors = F)
 
@@ -694,96 +697,92 @@ split_Datasets <- function(exp_matrix_list, clinic_list, validate_id) {
 ## processing clinical datasets and applied multi-cox
 MultiCox_Data_Transform <- function(path_, validation_sets, exp_matrix_list, clinic_list, raw_clinical) {
     interations <- list.files(path_)
-    if (length(interations) == 0) {
-        return("next")
-    } else {
-        interations <- sapply(interations, function(x) {
-            strsplit(x, "tion")[[1]][2]
-        })
+    if (length(interations) != 0) {
+        interations <- sapply(interations, function(x) {strsplit(x, "tion")[[1]][2]})
         interations <- as.numeric(interations)
         names(interations) <- NULL
-    }
-    for (iteration in interations) {
-        label1 <- 0
-        label2 <- 0
-        label3 <- 0
-        setwd(paste0(path_, "/", "iteration", iteration, "/"))
-        model_path <- paste0(
-            "./Traning set(size=367) prognostic-signature of ",
-            celltype, "(ncells=10)_model.rds"
-        )
+        for (iteration in interations) {
+            setwd(paste0(path_, "/", "iteration", iteration, "/"))
+            model_path <- paste0(
+                "./Traning set(size=354) prognostic-signature of ",
+                celltype, "(ncells=10)_model.rds"
+            )
 
-        train_model <- readRDS(model_path)
-        cutoff <- train_model$cutoff
+            train_model <- readRDS(model_path)
+            cutoff <- train_model$cutoff
 
-        vali_exp <- list()
-        vali_clinical <- list()
-        raw_clinical_list <- list()
+            vali_exp <- list()
+            vali_clinical <- list()
+            raw_clinical_list <- list()
 
-        for (i in validation_sets) {
-            vali_exp[[i]] <- exp_matrix_list[[i]]
-            vali_clinical[[i]] <- clinic_list[[i]]
-            raw_clinical_list[[i]] <- raw_clinical[[i]]
-            raw_clinical_list[[i]] <- raw_clinical_list[[i]][match(rownames(vali_clinical[[i]]), raw_clinical[[i]]$Patient_ID), ]
-        }
-
-        ## calculate gene-pairs rank
-        for (i in validation_sets) {
-            label_tem <- grouping(vali_exp[[i]], vali_clinical[[i]], cutoff)
-            vali_clinical[[i]] <- cbind(vali_clinical[[i]], label_tem)
-        }
-
-        ## pre-processing the clinical files
-        if (1) {
-            ## Age,Gender,Location,Mutations,Stage to analysis
-            ## GSE144735
-            if (1) {
-                head(raw_clinical_list[[1]], 5)
-                raw_clinical_list[[1]]$Age <- ifelse(raw_clinical_list[[1]]$Age >= 70, ">=70", "<70")
-                raw_clinical_list[[1]]$Gender <- ifelse(raw_clinical_list[[1]]$Gender == " F", "Female", "Male")
-                raw_clinical_list[[1]] <- raw_clinical_list[[1]][, c(1:5)]
-
-                vali_clinical[[1]]$Patient_ID <- rownames(vali_clinical[[1]])
-
-                vali_clinical[[1]] <- full_join(vali_clinical[[1]], raw_clinical_list[[1]], by = "Patient_ID")
-                rownames(vali_clinical[[1]]) <- vali_clinical[[1]]$Patient_ID
-                vali_clinical[[1]] <- vali_clinical[[1]][, -4]
+            for (i in validation_sets) {
+                vali_exp[[i]] <- exp_matrix_list[[i]]
+                vali_clinical[[i]] <- clinic_list[[i]]
+                raw_clinical_list[[i]] <- raw_clinical[[i]]
+                raw_clinical_list[[i]] <- raw_clinical_list[[i]][match(rownames(vali_clinical[[i]]), raw_clinical[[i]]$Patient_ID), ]
             }
-            ## GSE17536
-            if (1) {
-                head(raw_clinical_list[[2]], 5)
-                raw_clinical_list[[2]]$Age <- ifelse(raw_clinical_list[[2]]$Age >= 70, ">=70", "<70")
-                raw_clinical_list[[2]]$Gender <- ifelse(raw_clinical_list[[2]]$Gender == "female", "Female", "Male")
-                raw_clinical_list[[2]] <- raw_clinical_list[[2]][, c(1:3, 8:10)]
 
-                vali_clinical[[2]]$Patient_ID <- rownames(vali_clinical[[2]])
-
-                vali_clinical[[2]] <- full_join(vali_clinical[[2]], raw_clinical_list[[2]], by = "Patient_ID")
-                rownames(vali_clinical[[2]]) <- vali_clinical[[2]]$Patient_ID
-                vali_clinical[[2]] <- vali_clinical[[2]][, -4]
+            ## calculate gene-pairs rank
+            for (i in validation_sets) {
+                label_tem <- grouping(train_model,vali_exp[[i]], vali_clinical[[i]], cutoff)
+                vali_clinical[[i]] <- cbind(vali_clinical[[i]], label_tem)
             }
-            ## GSE39582
+
+            ## pre-processing the clinical files
             if (1) {
-                head(raw_clinical_list[[3]], 5)
-                raw_clinical_list[[3]]$Age <- ifelse(raw_clinical_list[[3]]$Age >= 70, ">=70", "<70")
+                ## Age,Gender,Location,Mutations,Stage to analysis
+                ## GSE144735
+                if (1) {
+                    head(raw_clinical_list[[1]], 5)
+                    raw_clinical_list[[1]]$Age <- ifelse(raw_clinical_list[[1]]$Age >= 70, ">=70", "<70")
+                    raw_clinical_list[[1]]$Gender <- ifelse(raw_clinical_list[[1]]$Gender == " F", "Female", "Male")
+                    raw_clinical_list[[1]] <- raw_clinical_list[[1]][, c(1:5)]
 
-                raw_clinical_list[[3]] <- raw_clinical_list[[3]][, c(1:3, 8:9, 14, 17, 19:20)]
+                    vali_clinical[[1]]$Patient_ID <- rownames(vali_clinical[[1]])
 
-                vali_clinical[[3]]$Patient_ID <- rownames(vali_clinical[[3]])
+                    vali_clinical[[1]] <- full_join(vali_clinical[[1]], raw_clinical_list[[1]], by = "Patient_ID")
+                    rownames(vali_clinical[[1]]) <- vali_clinical[[1]]$Patient_ID
+                    vali_clinical[[1]] <- vali_clinical[[1]][, -4]
+                }
+                ## GSE17536
+                if (1) {
+                    head(raw_clinical_list[[2]], 5)
+                    raw_clinical_list[[2]]$Age <- ifelse(raw_clinical_list[[2]]$Age >= 70, ">=70", "<70")
+                    raw_clinical_list[[2]]$Gender <- ifelse(raw_clinical_list[[2]]$Gender == "female", "Female", "Male")
+                    raw_clinical_list[[2]] <- raw_clinical_list[[2]][, c(1:3, 8:10)]
 
-                vali_clinical[[3]] <- full_join(vali_clinical[[3]], raw_clinical_list[[3]], by = "Patient_ID")
-                rownames(vali_clinical[[3]]) <- vali_clinical[[3]]$Patient_ID
-                vali_clinical[[3]] <- vali_clinical[[3]][, -4]
+                    vali_clinical[[2]]$Patient_ID <- rownames(vali_clinical[[2]])
+
+                    vali_clinical[[2]] <- full_join(vali_clinical[[2]], raw_clinical_list[[2]], by = "Patient_ID")
+                    rownames(vali_clinical[[2]]) <- vali_clinical[[2]]$Patient_ID
+                    vali_clinical[[2]] <- vali_clinical[[2]][, -4]
+                }
+                ## GSE39582
+                if (1) {
+                    head(raw_clinical_list[[3]], 5)
+                    raw_clinical_list[[3]]$Age <- ifelse(raw_clinical_list[[3]]$Age >= 70, ">=70", "<70")
+
+                    raw_clinical_list[[3]] <- raw_clinical_list[[3]][, c(1:3, 8:9, 14, 17, 19:20)]
+
+                    vali_clinical[[3]]$Patient_ID <- rownames(vali_clinical[[3]])
+
+                    vali_clinical[[3]] <- full_join(vali_clinical[[3]], raw_clinical_list[[3]], by = "Patient_ID")
+                    rownames(vali_clinical[[3]]) <- vali_clinical[[3]]$Patient_ID
+                    vali_clinical[[3]] <- vali_clinical[[3]][, -4]
+                }
+                rm(vali_exp, raw_clinical_list)
             }
-            rm(vali_exp, raw_clinical_list)
-        }
 
-        ## multi-cox
-        for (i in 1:length(vali_clinical)) {
-            vali_clinical[[i]] <- remove_less1_level(vali_clinical[[i]])
+            ## multi-cox
+            for (i in 1:length(vali_clinical)) {
+                vali_clinical[[i]] <- remove_less1_level(vali_clinical[[i]])
+            }
+            if (length(table(vali_clinical$GSE14333$label_tem))>1&length(table(vali_clinical$GSE17536$label_tem))>1&length(table(vali_clinical$GSE39582$label_tem))>1){
+                MultiCox(vali_clinical,iteration)
+             }
+            setwd("../../../")
         }
-        setwd("../../../")
-        return(vali_clinical)
+#        return(vali_clinical)
     }
 }
 
