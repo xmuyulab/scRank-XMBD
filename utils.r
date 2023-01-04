@@ -792,8 +792,8 @@ shape_to_dataframe=function(iteration_result){
                     iteration_result[[celltype_names[i]]]$all_success)
   }
   
-  result_df=cbind(result_df,"Train/Test"=result_df[,3]/result_df[,2])
-  result_df=cbind(result_df,"Test/validate"=result_df[,4]/result_df[,3])
+  result_df=cbind(result_df,"Train_Test"=result_df[,3]/result_df[,2])
+  result_df=cbind(result_df,"Test_validate"=result_df[,4]/result_df[,3])
   
   return(result_df)
 }
