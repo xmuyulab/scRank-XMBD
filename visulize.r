@@ -399,7 +399,7 @@ Lollipop_chart <- function(iteration_result) {
 
   ## plot
   p <- ggdotchart(data_df,
-    x = "Cell_subtype", y = "Test/validate",
+    x = "Cell_subtype", y = "Test_validate",
     color = met.brewer("Tara", n = 1), # Color by groups
     palette = c("#00AFBB", "#E7B800", "#FC4E07"), # Custom color palette
     sorting = "descending", # Sort value in descending order
@@ -407,7 +407,7 @@ Lollipop_chart <- function(iteration_result) {
     rotate = TRUE, # Rotate vertically
     # group = "Cell_type",                          # Order by groups
     dot.size = 12, # Large dot size
-    label = round(data_df$`Test/validate`, digits = 4), # Add mpg values as dot labels
+    label = round(data_df$Test_validate, digits = 4), # Add mpg values as dot labels
     font.label = list(
       color = "white", size = 10,
       vjust = 0.5
@@ -470,7 +470,11 @@ Lollipop_chart_cindex <- function() {
 }
 
 ## multiple variable cox analysis
-MultiCox <- function(vali_clinical) {
+MultiCox <- function(vali_clinical,iteration) {
+   label1 <- 0
+   label2 <- 0
+   label3 <- 0
+
   ## mul-cox GSE14333
   if (1) {
     mul_cox <- coxph(Surv(dfs_time, dfs_event) ~
@@ -571,7 +575,7 @@ MultiCox <- function(vali_clinical) {
       ins("GSE14333"),
       ins("Location(Left/Rectum/Right)"),
       GSE14333_result[c(1, 2), ],
-      ins("Duck Stage"),
+      ins("Bulk Stage"),
       GSE14333_result[3, ],
       ins("Age"),
       GSE14333_result[4, ],
@@ -701,6 +705,7 @@ MultiCox <- function(vali_clinical) {
   if (label1 & label2 & label3) {
     setwd("../")
     file.rename(paste0("iteration", iteration, "/"), paste0("iteration", iteration, "_1/"))
+    setwd(paste0("iteration", iteration, "_1"))
   }
   return(NULL)
 }
