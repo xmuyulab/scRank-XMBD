@@ -172,4 +172,4 @@ In ```REO Stablity in Bulk``` , we evaluate the REO of some gene-pairs in bulk R
 <br>
 In ```Methods Benchmark``` , we evaluate performance of five methods (scRank, CibersortX, GSEA, Scissor, Uni-Markers) used for prioritizing prognostic-associated subpopulations.<br>
 ## How to cite
-Tong M, Lin Y, Yang W, Song J, Zhang Z, Xie J, Tian J, Luo S, Liang C, Huang J, Yu R. 2022. Prioritizing prognostic-associated subpopulations and individualized recurrence risk signatures from single-cell transcriptomes of colorectal cancer. bioRxiv doi: 10.1101/2022.10.12.511912
+Tong M, Lin Y, Yang W, Song J, Zhang Z, Xie J, Tian J, Luo S, Liang C, Huang J, Yu R. Prioritizing prognostic-associated subpopulations and individualized recurrence risk signatures from single-cell transcriptomes of colorectal cancer. Brief Bioinform. 2023 Mar 22:bbad078. doi: 10.1093/bib/bbad078. Epub ahead of print. PMID: 36946415.
